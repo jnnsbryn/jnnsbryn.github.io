@@ -1,0 +1,38 @@
+.content {
+	display: none;
+}
+.noContent {
+	color: #000;
+	background-color: transparent;
+	pointer-events: none;
+	border-style: none;
+} 
+li {
+	list-style: none;
+}
+body {
+	margin: 0;
+}
+.splash-screen {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	z-index: 9999;
+	opacity: 1;
+	transition: opacity 1s ease; /* Transition for fade effect */
+}
+.fade-out {
+	opacity: 0; /* Set opacity to 0 for fade out */
+}
+.loading-text {
+	margin: 0; /* Remove margin for better alignment */
+}
