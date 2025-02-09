@@ -7,7 +7,7 @@ $(document).ready(function(){
 			$.each(data, function(index, item) {
 				var html = '';
 				html += '<li class="list-group-item bg-dark content">';
-				html += '<h4><a href="blog/' + item.id + '/' + item.slug + '" class="text-decoration-none text-bg-dark">' + item.judul + '</a></h4>';
+				html += '<h4><a href="./' + item.id + '/' + item.slug + '" class="text-decoration-none text-bg-dark">' + item.judul + '</a></h4>';
 				html += '<small class="text-bg-dark">' + item.tanggal + '</small>';
 				html += '</li>';
 				$('#list-group').append(html);
